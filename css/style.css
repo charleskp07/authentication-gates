@@ -8,6 +8,11 @@ a {
     grid-template-columns: 1fr 1fr;
     height: 100vh;
 }
+@media(max-width: 720px) {
+    .auth-cover {
+        grid-template-columns: 1fr;
+    }
+}
 
 button {
     cursor: pointer;
@@ -28,6 +33,13 @@ button:hover {
     grid-template-columns: 1fr 1fr;
     gap: 10px;
 }
+
+@media(max-width: 720px) {
+    .d-grid-2 {
+        grid-template-columns: 1fr;
+    }
+}
+
 
 .form-cover {
     display: flex;
